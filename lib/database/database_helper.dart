@@ -74,7 +74,7 @@ class DatabaseHelper {
         whereArgs: [id], // Reemplaza "id" con el ID de la transacción que deseas eliminar
       );
     } else {
-      throw Exception('La base de datos no ha sido inicializada.');
+      throw Exception('La base de datos no ha sido inicializada todavia.');
     }
   }
 }
